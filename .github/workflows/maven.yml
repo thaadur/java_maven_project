@@ -31,7 +31,7 @@ jobs:
     - uses: actions/checkout@v3
 
     - name: Set up Snyk
-      uses: snyk/actions/setup@v3
+      uses: snyk/actions/maven@master
       with:
         version: 'latest'
 
